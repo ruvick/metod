@@ -155,7 +155,7 @@ jQuery('.header__form button').click(function(e){
 });
 
 
-$(".fancybox").fancybox();
+// $(".fancybox").fancybox();
 
 //ZOOM
 if ($('.gallery').length > 0) {
@@ -193,7 +193,7 @@ function popupOpen(pl, v) {
 	}
 	history.pushState('', '', '#' + pl);
 	if (v != '' && v != null) {
-		$('.popup-' + pl + ' .popup-video__value').html('<iframe src="https://www.youtube.com/embed/' + v + '?autoplay=1"  allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+		$('.popup-' + pl + ' .popup-video__value').html('<iframe src="https://www.youtube.com/embed/kLte7hJOFZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
 	}
 	$('.popup-' + pl).fadeIn(300).delay(300).addClass('active');
 
