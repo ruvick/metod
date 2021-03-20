@@ -1,70 +1,58 @@
 // Карточки товаров ====================================================================================================================================================
+.prod-card__column {
+	padding: 0 15px;
+	margin-bottom: 30px;
+	justify-content: center;
+	flex: 0 1 33.3%;
+}
 .prod-card {
-	// .prod-card__body
-	// margin: 0 -8.5px;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	// justify-content: space-between;
+	margin: 0 -15px;
 	&__body {
-		// max-width: 252px;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #F2F2F2;
+    padding-bottom: 28px;
+  //   max-width: 350px;
 		// width: 100%;
-		// padding: 20px 20px 18px 22px;
-		padding: 15px 20px 15px 22px;
-		flex-direction: column;
-		border: 0.4px solid #c7c9cb;
-		flex: 0 1 19%;
+    height: 100%;
 	}
 	// .prod-card__link
 	&__link {
-		// margin: 0 auto 32px auto;
-		margin: 0 auto 13px auto;
-		flex: 1 1 auto;
-		overflow: hidden;
-		position: relative;
+    flex: 0 1 350px;
+    // width: 350px;
+    max-height: 200px;
+    overflow: hidden;
 		img {
 			max-width: 100%;
-			max-height: 195px;
-			flex: 0 0 175px;
+			// object-fit:cover;
+			height: 100%;
 		}
 	}
-	&__sale {
-		position: absolute;
-		z-index: 5;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-weight: 500;
-		width: 40px;
-		height: 31px;
-		background: #8abb2a;
-		color: #fff;
-		margin-top: 4px;
-	}
+	&__cat-info {
+		display: block;
+    font-size: 12px;
+    line-height: 133.33333%;
+    color: #7d7d7d;
+    margin-bottom: 5px;
+		}
 	&__text {
-		h4 {
-			line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    padding: 18px 16px 0px 20px;
+        flex: 1 1 auto;
+		h3 {
 			margin-bottom: 10px;
-			// .prod-card__manuf
 		}
 	}
-	&__manuf {
-		line-height: 18px;
-		color: #8a7165;
-		margin-bottom: 10px;
+	&__subtitle {
+    margin-bottom: 25px;
 	}
-	// .prod-card__avail
-	&__avail {
-		line-height: 18px;
-		color: #d3820f;
-		margin-bottom: 14.5px;
-	}
-	// .prod-card__price-item
-	&__price-item {
-		justify-content: space-between;
-		align-items: center;
-	}
-	// .prod-card__price
-	&__price {
-		font-size: 20px;
-		font-weight: 600;
+	&__btn {
+		margin-left: 20px;
 	}
 }
 
