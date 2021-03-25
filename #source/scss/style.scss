@@ -18,7 +18,7 @@
 	src: url('../fonts/gilroy-semibold.eot');
 	src: local('☺'), url('../fonts/gilroy-semibold.woff') format('woff'), url('../fonts/gilroy-semibold.ttf') format('truetype'), url('../fonts/gilroy-semibold.svg') format('svg');
 	font-weight: 600;
-	font-style: normal; 
+	font-style: normal;  
 }
 //</Подключаем шрифты>=======================================================================================
 
@@ -112,6 +112,7 @@ body {
 @import "cards.scss";
 @import "popup.scss";
 @import "header.scss";
+@import "header-yandex.scss";
 @import "footer.scss";
 @import "home.scss";
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
