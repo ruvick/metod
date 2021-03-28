@@ -138,6 +138,7 @@ body {
 		background-image: url('../img/head-banner.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center center;
 		padding: 41px 15px 0px 30px;
 		margin-bottom: 29px;
 		border-radius: 5px;
@@ -172,8 +173,8 @@ body {
 	// .main-info__column-r
 	&__column-r {
 		flex-direction: column;
-		width: 23%;
-		// flex: 0 0 255px;
+		// width: 23%;
+		flex: 0 0 255px;
 	}
 	// .main-info__act
 	&__act {}
@@ -738,11 +739,55 @@ body {
 	.menu__link {
     padding: 0;
 	}
+	.main-info__column {
+		width: 73%;
+	}
+	.prod-card {
+    margin: 0 -5px;
+    justify-content: center;
+	}
+	.prod-card__column {
+    padding: 0 5px;
+    flex: 0 1 33%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.main-info__item-img {
+    background-position: 100% 0;
+ 	}
+}
+
+@media (max-width: 990px) {
+	.main-info__column {
+		width: 71%;
+	}
 }
 
 @media (max-width: 960px) {
 	.search {
     margin-right: 10px;
+	}
+}
+
+@media (max-width: 930px) {
+	.main-info__column {
+		width: 69%;
+	}
+}
+
+@media (max-width: 860px) {
+	.main-info__column {
+		width: 67%;
+	}
+}
+
+@media (max-width: 812px) {
+	.main-info__column {
+		width: 65%;
+	}
+	.page {
+    padding: 60px 0 30px 0;
 	}
 }
 
@@ -808,7 +853,47 @@ body {
 	.search {
     margin-right: 15px;
 	}
-
+	.main-info__row {
+    flex-wrap: wrap;
+	}
+	.main-info__column {
+    width: 100%;
+    margin-bottom: 65px;
+	}
+	.main-info__column-r {
+    flex: 0 1 100%;
+	}
+	.main-info__act {
+		display: flex;
+		justify-content: space-between;
+	}
+	.main-info__login {
+    margin-bottom: 0px;
+    max-width: 360px;
+    width: 100%;
+    height: 185px;
+	}
+	.main-info__vid {
+    flex: 0 1 360px;
+    height: 185px;
+  }
+  .prod-card {
+    margin: 0;
+    justify-content: space-between;
+	}
+	.prod-card__column {
+    padding: 0;
+    flex: 0 1 49%;
+	}
+	.prod-card__link img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+	}
+	.articles h1,
+	.methods h1 {
+    margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -819,6 +904,12 @@ body {
 		-o-transition: right 0.8s;
 		transition: right 0.8s; }
 	}
+
+@media (max-width: 660px) {
+	.prod-card__column {
+    // flex: 0 1 49%;
+	}
+}
 
 @media (max-width: 540px) {
 	.footer__item-left {
@@ -839,6 +930,15 @@ body {
 	}
 	.footer__row .header__callback {
     display: none;
+	}
+	.prod-card__column {
+    flex: 0 1 100%;
+	}
+	// .prod-card__link img {
+ //    object-fit: cover;
+	// }
+	.page {
+    padding: 60px 0 20px 0;
 	}
 }
 
