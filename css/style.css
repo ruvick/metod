@@ -2003,7 +2003,7 @@ body.ie .ibg img {
 
 @media (max-width: 1050px) {
   .menu {
-    margin: 0 10px; }
+    margin: 0 15px; }
   .menu__link {
     padding: 0; } }
 
@@ -2014,12 +2014,12 @@ body.ie .ibg img {
 @media (max-width: 900px) {
   .menu {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 358px;
-    flex: 0 0 358px; }
+    -ms-flex: 0 0 360px;
+    flex: 0 0 360px; }
   .header__row-left {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 425px;
-    flex: 0 0 425px; }
+    -ms-flex: 0 0 435px;
+    flex: 0 0 435px; }
   .search {
     margin-left: 10px; } }
 
