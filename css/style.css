@@ -2007,6 +2007,12 @@ body.ie .ibg img {
   .container {
     padding: 0 10px; } }
 
+@media (max-width: 1100px) {
+  .reviews .reviews-block__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%; } }
+
 @media (max-width: 1050px) {
   .menu {
     margin: 0 15px; }
@@ -2023,11 +2029,30 @@ body.ie .ibg img {
     padding: 0 5px;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 33%;
-    flex: 0 1 33%; } }
+    flex: 0 1 33%; }
+  .reviews__column {
+    margin-right: 15px; } }
 
 @media (max-width: 1024px) {
   .main-info__item-img {
-    background-position: 100% 0; } }
+    background-position: 100% 0; }
+  .reviews__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .reviews__column {
+    margin-right: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .reviews__form-block {
+    padding: 30px 35px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .reviews__form-block h3 {
+    max-width: 100%; }
+  .reviews .reviews-block__item {
+    height: auto; } }
 
 @media (max-width: 990px) {
   .main-info__column {
@@ -2153,6 +2178,7 @@ body.ie .ibg img {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover; }
+  .reviews h1,
   .articles h1,
   .methods h1 {
     margin-bottom: 20px; }
@@ -2175,7 +2201,24 @@ body.ie .ibg img {
     width: 100%; }
   .reviews-block__item {
     margin-bottom: 30px;
-    width: 48%; } }
+    width: 48%; }
+  .reviews__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .reviews__column {
+    margin-right: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .reviews__form-block {
+    padding: 30px 28px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .reviews__form-block h3 {
+    max-width: 100%; }
+  .reviews .reviews-block__item {
+    height: auto; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2236,7 +2279,15 @@ body.ie .ibg img {
   .methods-home {
     padding: 35px 0 0px 0; }
   .footer .logo-icon {
-    height: 23px; } }
+    height: 23px; }
+  .reviews .reviews-block__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .reviews .reviews-block__item:last-child {
+    margin-bottom: 0; }
+  .reviews__column {
+    margin-bottom: 20px; } }
 
 @media (max-width: 515px) {
   .header {
@@ -2300,7 +2351,9 @@ body.ie .ibg img {
   .main-info__item-img {
     padding: 70px 15px 50px 30px; }
   .main-info__item-img h1 {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .reviews__form-block {
+    padding: 30px 15px; } }
 
 @media (max-width: 360px) {
   .header__callback {
