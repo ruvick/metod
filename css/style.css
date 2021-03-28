@@ -1320,7 +1320,7 @@ body.ie .ibg img {
   display: none;
   width: 30px;
   height: 30px;
-  background: #65B965;
+  background: #fe9d2b;
   border-radius: 50%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -1479,7 +1479,7 @@ body.ie .ibg img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 41px 15px 0px 30px;
+  padding: 41px 15px 50px 30px;
   margin-bottom: 29px;
   border-radius: 5px;
   overflow: hidden; }
@@ -2048,7 +2048,9 @@ body.ie .ibg img {
   .main-info__column {
     width: 65%; }
   .page {
-    padding: 60px 0 30px 0; } }
+    padding: 60px 0 30px 0; }
+  .methods-home {
+    padding: 50px 0 0px 0; } }
 
 @media (max-width: 900px) {
   .menu {
@@ -2155,7 +2157,24 @@ body.ie .ibg img {
     margin-bottom: 20px; }
   .main-info__vid {
     margin-right: 15px;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .main-info__reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .main-info__reviews h3 {
+    float: right;
+    height: 20px;
+    width: 100%; }
+  .reviews-block__item {
+    margin-bottom: 30px;
+    width: 48%; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2210,7 +2229,11 @@ body.ie .ibg img {
     margin-bottom: 20px; }
   .main-info__login {
     max-width: 100%;
-    height: 195px; } }
+    height: 195px; }
+  .reviews-block__item {
+    width: 100%; }
+  .methods-home {
+    padding: 35px 0 0px 0; } }
 
 @media (max-width: 515px) {
   .header {
@@ -2268,7 +2291,13 @@ body.ie .ibg img {
     margin-left: 0;
     height: 45px; }
   .footer__row .header__callback p {
-    display: block; } }
+    display: block; }
+  .search__input {
+    border-radius: 0 !important; }
+  .main-info__item-img {
+    padding: 70px 15px 50px 30px; }
+  .main-info__item-img h1 {
+    margin-bottom: 20px; } }
 
 @media (max-width: 360px) {
   .header__callback {
