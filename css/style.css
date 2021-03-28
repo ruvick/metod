@@ -1404,12 +1404,11 @@ body.ie .ibg img {
     -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-flex: 0;
-    -ms-flex: 0 1 680px;
-    flex: 0 1 680px; }
+    -ms-flex: 0 1 690px;
+    flex: 0 1 690px; }
   .footer__text {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 613px;
-    flex: 1 1 613px; }
+    max-width: 590px;
+    width: 100%; }
     .footer__text p {
       color: #A9A9A9; }
 
@@ -1435,6 +1434,9 @@ body.ie .ibg img {
 
 .footer__row .header__callback a:before {
   display: none; }
+
+.footer__row .header__callback p {
+  color: #A9A9A9; }
 
 .main-info__row {
   -webkit-box-pack: justify;

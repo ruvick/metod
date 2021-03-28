@@ -10,11 +10,12 @@
 	// .footer__item-left
 	&__item-left {
 		justify-content: space-between;
-		flex: 0 1 680px;
+		flex: 0 1 690px;
 	}
 	// .footer__text
 	&__text {
-		flex: 1 1 613px;
+		max-width: 590px;
+		width: 100%;
 		// max-width: 613px;
 		// width: 100%;
 		p {
@@ -22,7 +23,7 @@
 		}
 	}
 }
-
+ 
 .footer__item-left .logo-icon {
 	flex: 0 0 80px;
 }
@@ -43,5 +44,7 @@
 	display: none;
 } 
 
-
+.footer__row .header__callback p {
+    color: #A9A9A9;
+}
 
