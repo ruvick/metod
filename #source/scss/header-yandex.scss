@@ -6,7 +6,7 @@
 }
 
 .header {
-	padding: 22px 0;
+	// padding: 22px 0;
 	// .header__row
 	&__row {
 		justify-content: space-between;
@@ -18,17 +18,17 @@
 		width: 100%;
 	}
 	// .header__logo
-	&__logo {
-		flex: 1 1 auto;
-		&:before {
-			content:'';
-			float: left;
-			width: 60px;
-			height: 22px;
-			background-position: 0 0;
-    	background-repeat: no-repeat;  
-		} 
-	}
+	// &__logo {
+	// 	flex: 1 1 auto;
+	// 	&:before {
+	// 		content:'';
+	// 		float: left;
+	// 		width: 60px;
+	// 		height: 22px;
+	// 		background-position: 0 0;
+ //    	background-repeat: no-repeat;  
+	// 	} 
+	// }
 	// .header__menu
 	&__menu {}
 	// .header__row-right
