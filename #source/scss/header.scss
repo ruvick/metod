@@ -116,7 +116,7 @@
   width: 50%;
   height: 100%;
   padding: 35px 10px 0px 20px;
-  margin-top: 89px;
+  margin-top: 53px;
   overflow: auto;
   right: -100%;
   -webkit-transition: right 0.8s;
@@ -145,13 +145,19 @@
 // Стиль иконки бургера
 .icon-menu {
  display: none;
- position: absolute;
- top: 22px;
- right: 10px;
- width: 30px;
+ // position: absolute;
+ position: relative;
+ top: 28%;
+ right: 0;
+ // top: 22px;
+ // right: 10px;
+ flex: 0 0 35px;
+ width: 35px;
  height: 18px;
  cursor: pointer;
- z-index: 5; }
+ z-index: 5; 
+ margin-left: 20px;
+}
 .icon-menu span {
  -webkit-transition: all 0.3s ease 0s; 
  -moz-transition: all 0.3s ease 0s;
@@ -190,6 +196,22 @@
  transform: rotate(45deg);
  bottom: 8px; }
 
+.mob-search {
+    display: none;
+    width: 30px;
+    height: 30px;
+    background: #65B965;
+    border-radius: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+}
 
 .header-wrap {
 	background-image: url('../img/header-yandex.jpg');
