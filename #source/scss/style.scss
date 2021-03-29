@@ -880,6 +880,10 @@ body {
 		padding: 0;
 		height: 53px;
 	}
+	.header-wrap .header {
+		box-shadow: 0 0 8px #FED529;
+		background: #000;
+	}
 	.icon-menu {
 		display: block;
 	}
@@ -1259,6 +1263,9 @@ body {
 	}
 	.method-info__item-img {
 		margin-bottom: 0;
+	}
+	.header-wrap .header__search.active {
+    box-shadow: 0px 2px 2px 0px #FED529;
 	}
 }
 
