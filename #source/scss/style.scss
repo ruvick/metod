@@ -27,7 +27,7 @@
 //</Иконочные шрифты>==========================================================================================
  
 //<Шрифт по умолчанию>==========================================================================================
-$fontfamily: "Gilroy";
+$fontfamily: "Gilroy"; 
 //</Шрифт по умолчанию>========================================================================================== 
 
 //</ШРИФТЫ>=======================================================================================================
@@ -794,6 +794,10 @@ body {
 	.method-info__item {
     flex: 0 1 30%;
 	}
+	.menu__link:hover {
+    background: none;
+    color: #fff;
+	}
 }
 
 @media (max-width: 990px) {
@@ -881,7 +885,7 @@ body {
 		height: 53px;
 	}
 	.header-wrap .header {
-		box-shadow: 0 0 8px #FED529;
+		box-shadow: 0 0 5px #FED529;
 		background: #000;
 	}
 	.icon-menu {
@@ -1050,6 +1054,15 @@ body {
 	.method-info {
     padding: 35px 0;
 	}
+	.menu__link {
+    font-size: 20px;
+	}
+	.mob-menu li a {
+    padding-bottom: 18px;
+	}
+	.header-wrap .mob-menu {
+    margin-top: 54px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -1087,7 +1100,7 @@ body {
 	.footer__item-left {
     flex-direction: column;
 	}
-	.footer__text {
+	.footer__text { 
     margin: 13px 0 0 0;
     max-width: 100%;
 	}
@@ -1194,15 +1207,17 @@ body {
     margin: 0;
 	}
 	.header__row-right {
+		height: 35px;
     justify-content: flex-end;
 	}
 	.header__callback {
     flex: none;
-    height: 21px;
+    height: 16px;
     margin-left: 15px;
 	}
 	.header__callback a {
     font-size: 20px;
+    margin-bottom: 0;
 	}
 	.header__search,
 	.header__callback a:before,
@@ -1245,6 +1260,7 @@ body {
   }
   .main-info__item-img {
     padding: 70px 15px 50px 30px;
+    // filter: contrast(52%);
   }
   .main-info__item-img h1 {
   	// font-size: 18px;
@@ -1267,6 +1283,10 @@ body {
 	.header-wrap .header__search.active {
     box-shadow: 0px 2px 2px 0px #FED529;
 	}
+	.main-info__vid { 
+		align-items: center;
+	}
+
 }
 
 @media (max-width: 480px) {
@@ -1308,6 +1328,7 @@ body {
     font-size: 18px;
 	}
 	.icon-menu {
+		flex: 0 0 30px;
     margin-left: 10px;
 	}
 }

@@ -2065,7 +2065,10 @@ body.ie .ibg img {
   .method-info__item {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 30%;
-    flex: 0 1 30%; } }
+    flex: 0 1 30%; }
+  .menu__link:hover {
+    background: none;
+    color: #fff; } }
 
 @media (max-width: 990px) {
   .main-info__column {
@@ -2137,8 +2140,8 @@ body.ie .ibg img {
     padding: 0;
     height: 53px; }
   .header-wrap .header {
-    -webkit-box-shadow: 0 0 8px #FED529;
-    box-shadow: 0 0 8px #FED529;
+    -webkit-box-shadow: 0 0 5px #FED529;
+    box-shadow: 0 0 5px #FED529;
     background: #000; }
   .icon-menu {
     display: block; }
@@ -2306,7 +2309,13 @@ body.ie .ibg img {
   .waiting {
     padding: 35px 0 30px 0; }
   .method-info {
-    padding: 35px 0; } }
+    padding: 35px 0; }
+  .menu__link {
+    font-size: 20px; }
+  .mob-menu li a {
+    padding-bottom: 18px; }
+  .header-wrap .mob-menu {
+    margin-top: 54px; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2429,6 +2438,7 @@ body.ie .ibg img {
     align-self: center;
     margin: 0; }
   .header__row-right {
+    height: 35px;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
@@ -2436,10 +2446,11 @@ body.ie .ibg img {
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
-    height: 21px;
+    height: 16px;
     margin-left: 15px; }
   .header__callback a {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 0; }
   .header__search,
   .header__callback a:before,
   .header__callback p {
@@ -2497,7 +2508,11 @@ body.ie .ibg img {
     margin-bottom: 0; }
   .header-wrap .header__search.active {
     -webkit-box-shadow: 0px 2px 2px 0px #FED529;
-    box-shadow: 0px 2px 2px 0px #FED529; } }
+    box-shadow: 0px 2px 2px 0px #FED529; }
+  .main-info__vid {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
 
 @media (max-width: 480px) {
   .content-article__aside {
@@ -2530,4 +2545,7 @@ body.ie .ibg img {
   .header__callback a {
     font-size: 18px; }
   .icon-menu {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
     margin-left: 10px; } }
