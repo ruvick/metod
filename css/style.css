@@ -2375,6 +2375,7 @@ body.ie .ibg img {
     -ms-flex-direction: column;
     flex-direction: column; }
   .main-info__vid {
+    border-radius: 10px;
     margin-right: 0;
     margin-bottom: 20px; }
   .main-info__login {

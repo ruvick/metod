@@ -1130,6 +1130,7 @@ body {
     flex-direction: column;
 	}
 	.main-info__vid {
+		border-radius: 10px;
     margin-right: 0;
     margin-bottom: 20px;
 	}
@@ -1290,7 +1291,6 @@ body {
 	.main-info__vid { 
 		align-items: center;
 	}
-
 }
 
 @media (max-width: 480px) {

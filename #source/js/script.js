@@ -183,7 +183,13 @@ jQuery('.header__form button').click(function(e){
 });
 
 
-// $(".fancybox").fancybox();
+$('.main-info__vid').fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        helpers : {
+            media : {}
+        }
+    });
 
 //ZOOM
 if ($('.gallery').length > 0) {
