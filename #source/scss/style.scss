@@ -13,7 +13,7 @@
 	font-style: normal;
 }
 
-@font-face {
+@font-face { 
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-semibold.eot');
 	src: local('☺'), url('../fonts/gilroy-semibold.woff') format('woff'), url('../fonts/gilroy-semibold.ttf') format('truetype'), url('../fonts/gilroy-semibold.svg') format('svg');
@@ -1077,10 +1077,11 @@ body {
 	}
 }
 
-@media (max-width: 660px) {
-	.prod-card__column {
-    // flex: 0 1 49%;
-	}
+@media (max-width: 630px) {
+	.main-info__item-img {
+    background-image: url('../img/header-yandex.jpg');
+    background-position: 0 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1266,6 +1267,9 @@ body {
   	// font-size: 18px;
     margin-bottom: 20px;
 	}
+	 .main-info__item-img br {
+	 	display: none;
+	}
 	.reviews__form-block {
     padding: 30px 15px;
 	}
@@ -1311,6 +1315,15 @@ body {
 	.intro__initials {
     margin-bottom: 10px;
 	}
+	.main-info__item-img {
+    padding: 30px 15px 30px 30px;
+	}
+}
+
+@media (max-width: 375px) {
+ .info-sl__slider .slick-dots {
+ 	width: 230px;
+ }
 }
 
 @media (max-width: 375px) {

@@ -1231,7 +1231,7 @@ body.ie .ibg img {
     border-radius: 18px; }
     .menu__link:hover {
       color: #000;
-      background: #FED529;
+      background: #fee429b5;
       border-radius: 18px;
       -webkit-transition: all 0.8s;
       -o-transition: all 0.8s;
@@ -2329,6 +2329,11 @@ body.ie .ibg img {
     -ms-flex: 0 0 305px;
     flex: 0 0 305px; } }
 
+@media (max-width: 630px) {
+  .main-info__item-img {
+    background-image: url("../img/header-yandex.jpg");
+    background-position: 0 0; } }
+
 @media (max-width: 600px) {
   .main-info__vid {
     -webkit-box-flex: 0;
@@ -2490,6 +2495,8 @@ body.ie .ibg img {
     padding: 70px 15px 50px 30px; }
   .main-info__item-img h1 {
     margin-bottom: 20px; }
+  .main-info__item-img br {
+    display: none; }
   .reviews__form-block {
     padding: 30px 15px; }
   .content-article__col-img {
@@ -2532,7 +2539,13 @@ body.ie .ibg img {
   .intro__item-block {
     min-height: 250px; }
   .intro__initials {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .main-info__item-img {
+    padding: 30px 15px 30px 30px; } }
+
+@media (max-width: 375px) {
+  .info-sl__slider .slick-dots {
+    width: 230px; } }
 
 @media (max-width: 375px) {
   .mentor-info h2 {
